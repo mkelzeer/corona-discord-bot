@@ -51,6 +51,7 @@ client.on('message', message => {
             .addField('**!corona** *global*', 'Sends the latest worldwide corona-stats available', false)
             .addField('**!corona** *country*', 'Sends corona-stats stats for the specific country', false)
             .addField('**!corona** *instructions*', 'Sends you the *random-masks* usage instructions', false)
+            .addField('**!corona** *fun*', 'Try it! :wink:', false)
             .setFooter('Bot created by @mkelzeer');
 
             message.channel.send(embedMessage);
